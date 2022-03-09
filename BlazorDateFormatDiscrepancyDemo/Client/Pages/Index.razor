@@ -7,3 +7,6 @@
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+<p>@(new DateTime(2022, 3, 9).ToString("D", new System.Globalization.CultureInfo("en-GB")))</p>
+<p>@(new System.Globalization.CultureInfo("en-GB").DateTimeFormat.LongDatePattern)</p>
